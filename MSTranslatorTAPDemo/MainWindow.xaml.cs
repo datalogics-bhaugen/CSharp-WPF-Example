@@ -15,9 +15,7 @@ namespace MSTranslatorTAPDemo
 {
     /// <summary>
     /// The goal of this WPF app is to demonstrate code for getting a security token, and translating a word or phrase into another langauge.
-    /// The language of the words to be translated are auto detected. The target langauge is selected from a combobox. The text of the translation is displayed and the       translation is heard as speech.
-    /// This app uses the current version of the Microsoft Translator APIs. The v4 version of the APIs will be demonstrated in another app.
-    /// The app contains a method to get langauge codes from the service and a dictionary to contain language codes and language names. This will be used in coding exercises.
+    /// The target langauge is selected from a combobox. The text of the translation is displayed and the translation is heard as speech.
     /// </summary>
     /// 
 
@@ -67,8 +65,8 @@ namespace MSTranslatorTAPDemo
         private void AccessToken()
         {
 
-            string clientID = "Tele2_MSTS2S_app";
-            string clientSecret = "/8cYiAz04B5W1ZbhkdHhpE7fBU+5nxvJCikcX1PTHm0=";
+            string clientID = "ADD-CLIENTID";
+            string clientSecret = "ADD-CLIENTSECRET";
 
             String strTranslatorAccessURI = "https://datamarket.accesscontrol.windows.net/v2/OAuth2-13";
             String strRequestDetails = string.Format("grant_type=client_credentials&client_id={0}&client_secret={1}&scope=http://api.microsofttranslator.com", HttpUtility.UrlEncode(clientID), HttpUtility.UrlEncode(clientSecret));
