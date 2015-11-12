@@ -12,4 +12,6 @@ You will need to sign up for Microsoft Azure Marketplace at: https://datamarket.
 
 You will need to get a client ID and a client secret from https://datamarket.azure.com/developer/applications 
 
+For more information about the APIs go to: https://msdn.microsoft.com/en-us/library/ff512419.aspx
+
 Put the client id and client secret in the app and you will be ready to go.
