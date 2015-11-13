@@ -1,8 +1,8 @@
 This C# application is a WPF app designed to demonstrate how to use the Microsoft Translator APIs. The app gives examples for:
 
 How to get an access token.
-How to get the list of supported langauges for translation from the service.
-How to get the list of supported lanaguages for text to speech from the service.
+How to get the list of supported languages for translation from the service.
+How to get the list of supported languages for text to speech from the service.
 How to do text to text translation.
 How to do text to text to speech of a translation.
 
