@@ -6,6 +6,8 @@ How to get the list of supported languages for text-to-speech from the service.
 How to do text-to-text translation.
 How to do text to text-to-speech of a translation.
 
+The Project was created with Visual Studio 2015.
+
 You will need to get an account at: https://signup.live.com/signup?uaid=63ca3ac5638d49b980aa81e3c39126f6&lic=1
 
 You will need to sign up for Microsoft Azure Marketplace at: https://datamarket.azure.com/home/
@@ -14,4 +16,7 @@ You will need to get a client ID and a client secret from https://datamarket.azu
 
 For more information about the APIs go to: https://msdn.microsoft.com/en-us/library/ff512419.aspx
 
-Put the client id and client secret in the app and you will be ready to go.
+Open the project/solution in Visual Studio.
+Locate the AccessToken() method.
+Enter the client id and client secret in the method.
+Select Start and run the code.
