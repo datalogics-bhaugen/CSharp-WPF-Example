@@ -8,11 +8,13 @@ How to do text to text-to-speech of a translation.
 
 The Project was created with Visual Studio 2015.
 
-You will need to get a live ID account at: https://signup.live.com/signup?uaid=63ca3ac5638d49b980aa81e3c39126f6&lic=1
+######What you will need:
 
-You will need to sign up for Microsoft Azure Marketplace at: https://datamarket.azure.com/home/
+Get a live ID account at: https://signup.live.com/signup?uaid=63ca3ac5638d49b980aa81e3c39126f6&lic=1
 
-You will need to get a client ID and a client secret from https://datamarket.azure.com/developer/applications 
+Sign up for Microsoft Azure Marketplace at: https://datamarket.azure.com/home/
+
+Get a client ID and a client secret from https://datamarket.azure.com/developer/applications 
 
 For more information about the APIs go to: https://msdn.microsoft.com/en-us/library/ff512419.aspx
 
